@@ -1,6 +1,6 @@
 pipeline{
     agent{ label 'spc' }
-    tools{ jdk 'jdk17'}
+    tools{ jdk 'JDK_17'}
     stages{
         stage('vcs'){
             steps{
